@@ -1,0 +1,109 @@
+/* importing Google fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333333;
+    background: linear-gradient(135deg, #f6d365, #fda085); /* Gradient background for the entire page */
+  }
+  
+  /* Pading for the containefr */
+  .container {
+    width: 90%; 
+  margin: 0 auto;
+  }
+  
+  /*Styling and adding padding for Header */
+  h1 {
+    font-family: "Dancing Script", cursive;
+    font-size: 2.5rem; 
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+    color: red;
+    font-size: 50px;
+  }
+
+  /* styling for paragraph tag */
+  p{
+    color: rgb(0, 76, 255) ;
+    font-size: x-large;
+    font-family: cursive;
+    font-style: italic;
+    padding: 10px;
+  }
+  /* styling for h2 tag */
+  h2{
+    font-family: cursive;
+    
+    font-size: 2.5rem; 
+    font-weight: bold;
+    margin-bottom: 30px; 
+    color: red;
+    font-size: 30px;
+  }
+  
+  /* Setting Card Styles & Padding*/
+  .card {
+    background: #70776da1;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    color: #333333; 
+    padding: 20px; 
+  }
+  
+  /* Setting hover for cards */
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card-img-top {
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .card-title {
+    font-size: 1.4rem; 
+    margin-top: 10px;
+    color: greenyellow; 
+    font-family: cursive; 
+  }
+  
+  .card-body {
+    font-size: 1.1rem;
+    font-weight: 400; 
+  }
+  
+  /* Button Styles */
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius: 5px;
+    font-weight: bold;
+    
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3; 
+    border-color: #0056b3;
+  }
+  
+
+  /* Setting responsiveness for the website for all devices */
+@media (min-width: 768px) {
+    .container {
+      width: 70%;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .container {
+      width: 90%;
+    }
+  }
